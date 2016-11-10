@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Firebase realtime database CRUD example</title>
+      <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+      <div class='container'>
+        <div> 
+          <h1>Daily Time Manager</h1>
+          <h4>For future.</h4>
+        </div>
+        <h2>Reviews</h2>
+        <h4>CREATE/UPDATE</h4>
+        <form id='reviewForm'>
+          <input type="hidden" id='hiddenId' />
+          <input type="text" id='fullName' />
+          <br/>
+          <textarea id='message'></textarea>
+          <br/>
+          <button type='submit'>Add/Update rewiew</button>
+        </form>
+        <br/>
+        <h4>READ/DELETE</h4>
+        <ul id='reviews'></ul>
+      </div>
+      <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+      <script src="main.js"></script>
+      <link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    </body>
+</html>
