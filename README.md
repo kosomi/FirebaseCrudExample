@@ -2,6 +2,8 @@
 
 Working example: http://voloshins.js.org/firebase-crud-example/
 
+<img src='https://github.com/kosomi/FirebaseCrudExample/blob/master/eee.png'>
+
 ## Steps to implement by your own
 
 ### Create your Github Pages
